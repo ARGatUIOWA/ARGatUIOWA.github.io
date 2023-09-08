@@ -5,9 +5,9 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: above
+  align: center
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   
 
 news: true  # includes a list of news items
@@ -23,6 +23,5 @@ The theme for this semester is "Learning-augmented online algorithms".
 This page [Algorithms with Predictions](https://algorithms-with-predictions.github.io/) which tracks recent research in "Algorithms with Predictions" lists 158 papers at the moment on a wide range of topics
 
 
-Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/argatuiowa.github.io/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
