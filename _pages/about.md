@@ -20,8 +20,6 @@ We plan on meeting weekly on Tuesdays 4:30pm-6:00pm to present/discuss papers th
 
 The theme for this semester is "Learning-augmented online algorithms". 
 
-This page [Algorithms with Predictions](https://algorithms-with-predictions.github.io/) which tracks recent research in "Algorithms with Predictions" lists 158 papers at the moment on a wide range of topics
+This page [Algorithms with Predictions](https://algorithms-with-predictions.github.io/) which tracks recent research in "Algorithms with Predictions" lists 158 papers at the moment on a wide range of topics. 
 
-
-Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/argatuiowa.github.io/publications/) automatically.
 
