@@ -1,12 +1,16 @@
 ---
 layout: post
-title: a post with bibliography
-date: 2023-07-12 09:56:00-0400
+title: Bijaya presents "Algorithms with predictions"
+date: 2023-09-05 04:30:00-0400
 description: an example of a blog post with bibliography
-tags: formatting bib
-categories: sample-posts
-giscus_comments: true
+# tags: formatting bib
+# categories: sample-posts
+# giscus_comments: true
 related_posts: false
 related_publications: einstein1950meaning, einstein1905movement
 ---
-This post shows how to add bibliography to simple blog posts. If you would like something more academic, check the [distill style post]({% post_url 2018-12-22-distill %}).
+
+
+**Abstract**: We introduce algorithms that use predictions from machine learning applied to the input to circumvent worst-case analysis. We aim for algorithms that have near optimal performance when these predictions are good, but recover the prediction-less worst case behavior when the predictions have large errors.
+
+[Algorithms with Predictions](http://www.cs.toronto.edu/~bor/2421s21/papers/mitzenmacher-survey.pdf)
