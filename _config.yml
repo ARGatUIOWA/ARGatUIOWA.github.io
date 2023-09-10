@@ -127,7 +127,7 @@ blog_name: Algorithms with Predictions # blog_name will be displayed in your blo
 blog_nav_title: Seminar # your blog must have a title for it to be displayed in the nav bar
 blog_description: Weekly meetings on Tuesdays 4:30-6:00pm at B11 MLH. 
 permalink: /blog/:year/:title/
-
+future: true
 # Pagination
 pagination:
   enabled: true
