@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: distill
 title: Bijaya presents "Algorithms with predictions"
 date: 2023-09-05 04:30:00-0400
 #description: an example of a blog post with bibliography
