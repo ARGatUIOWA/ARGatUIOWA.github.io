@@ -3,7 +3,7 @@ layout: post
 title: Bijaya presents "Algorithms with predictions"
 date: 2023-09-05 04:30:00-0400
 #description: an example of a blog post with bibliography
-tags: formatting bib
+tags: online bib
 #categories: sample-posts
 #giscus_comments: true
 #related_posts: false
