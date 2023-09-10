@@ -10,6 +10,16 @@ related_posts: false
 related_publications: einstein1950meaning, einstein1905movement
 ---
 
+authors:
+  - name: Michael Mitzenmacher
+    url: "https://www.eecs.harvard.edu/~michaelm/"
+    affiliations:
+      name: School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138, USA
+  - name: Sergel Vassilvitskii
+    url: "https://theory.stanford.edu/~sergei/"
+    affiliations:
+      name:  Google New York
+  
 
 **Abstract**: We introduce algorithms that use predictions from machine learning applied to the input to circumvent worst-case analysis. We aim for algorithms that have near optimal performance when these predictions are good, but recover the prediction-less worst case behavior when the predictions have large errors.
 
