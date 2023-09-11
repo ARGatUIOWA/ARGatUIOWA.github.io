@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-We have scheduled our weekly meetings to take place every <span style='color:#B509AC'>Tuesday</span> from <span style='color:#B509AC'>4:30 PM</span> to <span style='color:#B509AC'>6:00 PM</span>. During these sessions, we will be presenting and discussing papers that encompass a wide range of topics falling under the umbrella of Algorithms and Theoretical Computer Science. We extend a warm invitation to all of you to join us in these engaging discussions. Kindly make a note of these dates in your calendars if you intend to participate. Your presence will be greatly appreciated.
+We have scheduled our weekly meetings to take place every <span style='color:#B509AC'>Tuesday</span> from <span style='color:#B509AC'>4:30 PM</span> to <span style='color:#B509AC'>6:00 PM</span> at <span style='color:#B509AC'>B11 MLH</span>. During these sessions, we will be presenting and discussing papers that encompass a wide range of topics falling under the umbrella of Algorithms and Theoretical Computer Science. We extend a warm invitation to all of you to join us in these engaging discussions. Kindly make a note of these dates in your calendars if you intend to participate. Your presence will be greatly appreciated.
 
 The focal theme for this semester is "Learning-augmented online algorithms". 
 
