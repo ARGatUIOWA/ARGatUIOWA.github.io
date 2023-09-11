@@ -13,9 +13,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-We plan on meeting weekly on Tuesdays 4:30pm-6:00pm to present/discuss papers that broadly fall under the category of Algorithms/Theoretical CS. You are all invited. Please mark your calendars, if you plan on attending. 
+We have scheduled our weekly meetings to take place every Tuesday from 4:30 PM to 6:00 PM. During these sessions, we will be presenting and discussing papers that encompass a wide range of topics falling under the umbrella of Algorithms and Theoretical Computer Science. We extend a warm invitation to all of you to join us in these engaging discussions. Kindly make a note of these dates in your calendars if you intend to participate. Your presence will be greatly appreciated.
 
-The theme for this semester is "Learning-augmented online algorithms". 
+The focal theme for this semester is "Learning-augmented online algorithms". 
 
 This page [Algorithms with Predictions](https://algorithms-with-predictions.github.io/) which tracks recent research in "Algorithms with Predictions" lists 158 papers at the moment on a wide range of topics. 
 
