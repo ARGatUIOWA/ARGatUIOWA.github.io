@@ -1,7 +1,7 @@
 ---
 layout: past-events
 title: Past Events
-permalink: /
+permalink: /past-events/
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 
