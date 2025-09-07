@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -10,10 +9,7 @@ layout: default
   </header>
 
   <ul class="post-list">
-    {% assign all_posts = site.posts | concat: site.fall2023 %}
-    {% assign tagged_posts = all_posts | where_exp: "item", "item.tags contains page.tag" %}
-    
-    {% for post in tagged_posts %}
+    {% for post in page.posts %}
     <li>
       <h3>
         <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
