@@ -268,7 +268,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
   # This line is essential for fixing the broken links
-  collections: [fall2023]
+  collections: [posts, fall2023]
 
 # display_tags: ['online', 'survey', 'ski-rental', 'non-clairvoyant-job-scheduling'] # these tags will be displayed on the front page of your blog
 # display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
