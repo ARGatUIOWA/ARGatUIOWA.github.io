@@ -8,12 +8,12 @@ layout: default
     <h4 style="font-family: Arial, Helvetica, sans-serif;">{{ page.description }}</h4>
   </div>
 
-  {% if page.display_tags %}
+ {% if page.display_tags %}
   <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in page.display_tags %}
         <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/tag/' | relative_url }}">{{ tag }}</a>
         </li>
         {% unless forloop.last %}
           <p>&bull;</p>
@@ -35,11 +35,25 @@ layout: default
         {{ post.date | date: '%B %-d, %Y' }}
       </p>
       <p class="post-tags">
-        {% for tag in post.tags %}
-          <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
-            <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
-        {% endfor %}
-      </p>
+        <a href="{{ year | prepend: '/' | prepend: site.baseurl}}">
+          <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+
+          {% if tags != "" %}
+          &nbsp; &middot; &nbsp;
+            {% for tag in post.tags %}
+            <a href="{{ tag | slugify | prepend: '/tag/' | prepend: site.baseurl}}">
+              <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+              {% endfor %}
+          {% endif %}
+
+          {% if categories != "" %}
+          &nbsp; &middot; &nbsp;
+            {% for category in post.categories %}
+            <a href="{{ category | slugify | prepend: '/category/' | prepend: site.baseurl}}">
+              <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+              {% endfor %}
+          {% endif %}
+    </p>
     </li>
     {% endfor %}
   </ul>
