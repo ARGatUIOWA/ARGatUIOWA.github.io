@@ -263,10 +263,10 @@ jekyll-archives:
     year: archive-year
     tag: archive-tag
     category: archive-category
-   permalinks:
-    year: '/:year/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+  permalinks:
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
   # This line is essential for fixing the broken links
   collections: [posts, fall2023]
 
