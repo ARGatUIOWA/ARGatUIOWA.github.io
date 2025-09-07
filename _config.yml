@@ -262,7 +262,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, tags, categories]
   layouts:
     year: archive-year
     tag: archive-tag
@@ -271,9 +271,10 @@ jekyll-archives:
     year: '/blog/:year/'
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
-  collections: [fall2023, fall2025]
+  # This line is essential for fixing the broken links
+  collections: [fall2023]
 
-display_tags: ['online', 'survey', 'ski-rental', 'non-clairvoyant-job-scheduling'] # these tags will be displayed on the front page of your blog
+# display_tags: ['online', 'survey', 'ski-rental', 'non-clairvoyant-job-scheduling'] # these tags will be displayed on the front page of your blog
 # display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
