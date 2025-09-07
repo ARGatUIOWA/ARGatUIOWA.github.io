@@ -131,6 +131,7 @@ future: true
 # Pagination
 pagination:
   enabled: true
+  collection: 'fall2025' # Change this when new semester changes
 
 related_blog_posts:
   enabled: true
@@ -166,7 +167,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-
+    
 collections:
   news:
     defaults:
@@ -176,6 +177,12 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  fall2023: # Past semester
+    output: true
+    permalink: /past-events/fall2023/:title/
+  fall2025: # Current semester
+    output: true
+    permalink: /blog/:title/  # Change fall 2025 to fall 2023 style new semester to this style to update the semester
 
 announcements:
   enabled: true
