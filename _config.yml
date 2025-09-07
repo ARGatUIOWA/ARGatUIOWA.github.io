@@ -125,13 +125,12 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Fall 2025 Seminar Series # blog_name will be displayed in your blog page
 blog_nav_title: Schedule # your blog must have a title for it to be displayed in the nav bar
-blog_description: Weekly meetings on Thurdays 2:00-3:30pm at B13 MLH. 
+blog_description: Weekly meetings on Thurdays 2:00 - 3:30 PM at B13 MLH. 
 permalink: /blog/:year/:title/
 future: true
 # Pagination
 pagination:
   enabled: true
-  collection: 'fall2025' # Change this when new semester changes
 
 related_blog_posts:
   enabled: true
@@ -180,9 +179,6 @@ collections:
   fall2023: # Past semester
     output: true
     permalink: /past-events/fall2023/:title/
-  fall2025: # Current semester
-    output: true
-    permalink: /blog/:title/  # Change fall 2025 to fall 2023 style new semester to this style to update the semester
 
 announcements:
   enabled: true
