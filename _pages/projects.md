@@ -1,10 +1,10 @@
 ---
 layout: page
-# title: projects
+title: Group Memebers
 permalink: /projects/
 description: The group is flourishing, and we're extending a warm welcome to anyone interested in joining us.
-nav: false
-nav_order: 2
+nav: true
+nav_order: 3
 display_categories: [Faculty, Students]
 horizontal: false
 ---
