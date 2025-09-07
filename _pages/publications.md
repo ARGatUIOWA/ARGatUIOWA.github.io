@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /publications/
 title: Papers
-description: Papers from the seminar, in reversed chronological order. 
 nav: true
-nav_order: 4
+nav_order: 3
+permalink: /publications/
+description: Papers from the seminar, in reversed chronological order. 
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
