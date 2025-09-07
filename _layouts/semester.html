@@ -8,6 +8,21 @@ layout: default
     <h4 style="font-family: Arial, Helvetica, sans-serif;">{{ page.description }}</h4>
   </div>
 
+  {% if page.display_tags %}
+  <div class="tag-category-list">
+    <ul class="p-0 m-0">
+      {% for tag in page.display_tags %}
+        <li>
+          <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+        </li>
+        {% unless forloop.last %}
+          <p>&bull;</p>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   <ul class="post-list">
     {% assign semester_posts = site[page.collection] | sort: 'date' | reverse %}
     {% for post in semester_posts %}
